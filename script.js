@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click', () => {
     document.querySelector('body').style.backgroundColor = 'green';
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('.number').style.width = '30rem';
-    document.querySelector('.number').style.transition = 'all 0.75s ease';
+    document.querySelector('.number').style.transition = 'all 0.75s ease'; 
 
     if (score > highScore) {
       highScore = score;
